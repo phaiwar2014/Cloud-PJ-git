@@ -8,7 +8,7 @@ frontend:
       commands:
         - echo "Building my car service app..."
   artifacts:
-    baseDirectory: TESTPROJECT # ชี้ไปที่โฟลเดอร์ที่มีไฟล์ index.html ของคุณ
+    baseDirectory: . # ชี้ไปที่โฟลเดอร์ที่มีไฟล์ index.html ของคุณ
     files:
       - '**/*'
   cache:
